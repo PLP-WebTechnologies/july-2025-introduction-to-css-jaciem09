@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device -width", initial-scale="1" />
+        <title>My CSS World</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="logo"> My CSS World</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#box">Box Model</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <section id="Intro" class="section Intro">
+                <h2>Welcome to the World of CSS</h2>
+                <p>
+                    CSS makes the web beautiful. With just a few rules, you can style texts,create layouts and design engaging user experiences. This project covers
+                    <span class="highlight">basic CSS propertis</span> and the famous
+                    <strong>Box Model</strong>
+                </p>
+                <a class="btn" href="#box">Learn the Box Model</a>
+            </section>
+
+            <section id="box" class="section">
+                <h2>The CSS Box Model</h2>
+                <p>
+                    Each HTML element is a box. The box contains of <em>content</em>, sorrounded by <em>padding</em>, <e,>border</e> and <em>margin</em>
+                    <div class="box examples">
+                        <div class="box-demo demo1">
+                            <h3>Box A</h3>
+                            <p>Spacious with generous padding.</p>
+                        </div>
+                        <div class="box-demo demo2">
+                            <h3>Box B</h3>
+                            <p>Compact with tighter spacing.</p>
+                        </div>
+                        <div class="box-demo demo3">
+                            <h3>Box C</h3>
+                            <p>Thick border to highlight the boundary.</p>
+                        </div>
+                    </div>
+                </p>
+            </section>
+            <section id="gallery" class="section">
+                <h2>Styled Card Gallery</h2>
+                <p>
+                    Here are styled cards to demonstrate selectors, spacing and hover effects.
+                </p>
+                <div class="cards">
+                    <article class="card">
+                        <h3> Creativity</h3>
+                        <p>CSS gives you the power to unleash creativity in web design.</p>
+                        <a href="#" class="btn secondary">Explore</a>
+                    </article>
+                    <article class="card">
+                        <h3> Structure</h3>
+                        <p>The box model ensures that each element stays neat and consistent.</p>
+                        <a href="#" class="btn secondary">Explore</a>
+                    </article>
+                    <article class="card">
+                        <h3> Interactivity</h3>
+                        <p>Hover, focus and animations makes CSS interactive and lively.</p>
+                        <a href="#" class="btn secondary">Explore</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Built with love for PLP - July 2025</p>
+        </footer>
+    </body>
+</html>
